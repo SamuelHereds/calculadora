@@ -4,7 +4,7 @@
 } */
 
 input, #result,h1 {
-    margin: 1px;
+    margin: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem; 
     
@@ -33,7 +33,6 @@ input, #result,h1 {
 }
 
 button {
-    
     font-size: 2rem;
     margin: 3px;
 }
