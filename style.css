@@ -16,17 +16,20 @@ input, #result,h1 {
     margin-left: auto;
 } */
 .nome{
-    color:blueviolet;
+    color:black;
     text-align: center;
-    animation: piscapisca 1s infinite;
+    animation: piscapisca 0.25s infinite;
 
 }
 
 @keyframes piscapisca{
-0% {color:rgb(31, 146, 31)}
-33% {color:blue}
-66%{color: yellow;}
-100%{color:rgb(31, 146, 31)}
+0% {color:red}
+14% {color:orange}
+28%{color: yellow;}
+42%{color:rgb(31, 146, 31)}
+56%{color: blue}
+70%{color: purple;}
+100%{color: red;}
 }
 
 button {
