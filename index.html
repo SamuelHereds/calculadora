@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,21 +14,35 @@
 </head>
 
 <body>
-    <h1 class="nome">Calculadora do Hereds </h1>
-    <br />
-    <input type="text" id="num1" name="txtNum1" size="10">
-    <br />
-    <input type="text" id="num2" name="txtNum2" size="10">
-    <br />
 
-    <button id="btnSoma" class="botoes" onclick="soma()" type="button">+</button>
-    <button id="btnSubtrai" class="botoes" onclick="subtrai()" type="button">-</button>
-    <button id="btnMultiplica" class="botoes" onclick="multiplica()" type="button">*</button>
-    <button id="btnDivide" class="botoes" onclick="divide()" type="button">/</button>
+    <section id="Titulo">
+        <h1 class="nome">Calculadora do Hereds </h1>
+        
+    </section>
     <br />
-    <p id="result">Resultado: </p>
-    <hr>
+    <br />
+    <br />
+    
+    <section id="calculadora">
 
+        <br />
+        <input type="text" id="num1" name="txtNum1" size="10">
+        <br />
+        <input type="text" id="num2" name="txtNum2" size="10">
+        <br />
+        <div class="container">
+            <div class="vertical-center">
+                <button id="btnSoma" class="botoes" onclick="soma()" type="button">+</button>
+                <button id="btnSubtrai" class="botoes" onclick="subtrai()" type="button">-</button>
+                <button id="btnMultiplica" class="botoes" onclick="multiplica()" type="button">*</button>
+                <button id="btnDivide" class="botoes" onclick="divide()" type="button">/</button>
+
+            </div>
+        </div>
+        <br />
+        <p id="result">Resultado: </p>
+        <hr>
+    </section>
 </body>
 
 </html>

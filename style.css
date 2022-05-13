@@ -1,31 +1,101 @@
+* {
+    margin: 0;
+
+}
+
+#Titulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+#calculadora {
+    height: 100vh;
+    background-image: url(./assets/images/dragon-scales.svg);
+    /* display:block; */
 
 
-input, #result {
-    margin: 10px;
+    flex-wrap: nowrap;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.vertical-center {
+  
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input {
+
+   
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;  
+    font-size: 2rem;
+    
+}
+
+#result {
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem; 
+    font-size: 2rem;
+
 }
 
 button {
     font-size: 2rem;
     margin: 3px;
 }
-h1{
+
+h1 {
     margin: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    color:black;
+    color: black;
     text-align: center;
     animation: piscapisca 0.25s infinite;
 
 }
 
-@keyframes piscapisca{
-0% {color:red}
-14% {color:orange}
-28%{color: yellow;}
-42%{color:rgb(31, 146, 31)}
-56%{color: blue}
-70%{color: purple;}
-100%{color: red;}
+@keyframes piscapisca {
+    0% {
+        color: red
+    }
+
+    14% {
+        color: orange
+    }
+
+    28% {
+        color: yellow;
+    }
+
+    42% {
+        color: rgb(31, 146, 31)
+    }
+
+    56% {
+        color: blue
+    }
+
+    70% {
+        color: purple;
+    }
+
+    100% {
+        color: red;
+    }
 }
